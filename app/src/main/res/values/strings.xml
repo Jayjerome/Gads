@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gads</string>
+    <string name="hello">Hello Welcome</string>
+    <string name="jerome">Hi welcome</string>
+    <string name="name">Full name</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="age">Age</string>
+</resources>
