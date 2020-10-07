@@ -38,7 +38,7 @@
                 android:layout_marginTop="20dp"
                 android:id="@+id/full_name"
                 android:padding="10sp"
-                android:background="@drawable/text_background"
+                android:background="@drawable/general_bg"
                 android:textColorHint="@color/black"
                 android:layout_marginEnd="20dp"
                 android:gravity="center_vertical"
@@ -101,6 +101,17 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
                 android:text="Signin"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:onClick="sign_me_in"
+                android:background="@drawable/button_bg"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/next"
+                android:text="Next activity"
+                android:layout_margin="30dp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:onClick="sign_me_in"

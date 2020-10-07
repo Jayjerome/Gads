@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText full_name;
     private EditText age;
     private RadioButton yes, no;
+    private Button next;
 
     String name;
     int your_age;
@@ -40,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
         age = findViewById(R.id.age);
         yes = findViewById(R.id.radio_button_yes);
         no = findViewById(R.id.radio_button_no);
+
+        next = findViewById(R.id.next);
+
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent nextActivity = new Intent(context, SecondActivity.class);
+                startActivity(nextActivity);
+            }
+        });
 
 
 

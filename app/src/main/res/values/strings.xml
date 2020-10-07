@@ -6,4 +6,6 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="age">Age</string>
+    <string name="gads">GADs</string>
+    <string name="spinner">spinner</string>
 </resources>
